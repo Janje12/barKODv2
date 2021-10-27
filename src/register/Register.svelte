@@ -82,6 +82,7 @@
     }
 
     async function handleSubmit() {
+        validateInput();
         const req = {
             'team': JSON.stringify(team),
             'teamLead': JSON.stringify(teamLead),
