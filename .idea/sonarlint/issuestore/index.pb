@@ -23,8 +23,6 @@ F
 public/barkod-logo.svg,3/3/3363bef5f6b1a4738926e118df32ef8e28eb8687
 C
 src/barkod-logo.svg,b/7/b782af55216359bc69571d30c79fb703e55c5723
-J
-src/SignUpContainer.svelte,4/3/434b2b29898a1cf7f624b23fdc016833e5fba516
 ?
 src/Card.svelte,c/0/c0eda89df63b402b40ece57fce4490ebd2a148f5
 ?

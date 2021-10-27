@@ -3,8 +3,9 @@
     import TeamRegister from "./TeamRegister.svelte";
     import Questionnaire from "./Questionnaire.svelte";
     import * as jquery from 'jquery';
+    import {onMount} from 'svelte';
 
-    let teamType;
+    let teamType = 'solo';
     let showQuestionnaire = false;
     let team = {
         teamName: '',
@@ -37,6 +38,12 @@
         tripleDoubleEquals: '',
         whatDoesSolidMean: '',
     };
+
+    onMount(() => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const email = urlParams.get('email');
+        teamLead.email = email;
+    });
 
 
     function handleBack() {

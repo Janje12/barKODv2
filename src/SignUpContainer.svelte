@@ -1,10 +1,11 @@
 <script>
+    let email = '';
     let d = '0';
     let h = '00';
     let m = '00';
     let s = '00';
     const fun = updateTimer => {
-        const future = Date.parse("oct 27, 2021 16:00:00");
+        const future = Date.parse("oct 27, 2021 16:15:00");
         const now = new Date();
         const diff = future - now;
 
@@ -20,6 +21,11 @@
     }
     setInterval(fun, 1000);
 
+    function handleRegister() {
+        // Simulate a mouse click:
+        window.location.href = "register?email=" + email;
+    }
+
 </script>
 <div class="mb-28 pt-5 flex px-12 lg:pl-60">
     <div class="grid-rows-2 w-4/5">
@@ -31,8 +37,8 @@
             <div class="countdown-span-2 bg-gray-500 my-1 md:inline rounded-xl p-1 lg:p-4 mx-2">{h} SATI</div>
             <div class="countdown-span-3 bg-gray-500 my-1 md:inline rounded-xl p-1 lg:p-4 mx-2">{m} MINUTA</div>
             <div class="countdown-span-4 bg-gray-500 my-1 md:inline rounded-xl p-1 lg:p-4 mx-2">{s} SEKUNDI</div>
-            <!--<input  id="countdown" placeholder=" unesi svoj email" class="mr-0 col-auto py-3 rounded-l"></span><span class="ml-0">
-           <button class="col-auto rounded-r hover:bg-gray-400 border-gray-400 ml-0 p-3 border">Prijavi se!</button>-->
+<!--            <input bind:value={email}  id="countdown" placeholder="unesi svoj email" class="text-gray-500 px-2 mr-0 col-auto py-3 rounded-l">-->
+<!--           <button on:click={(e) => handleRegister()} class="col-auto rounded-r hover:bg-purple-700 border-gray-400 ml-0 p-3 border">Prijavi se!</button>-->
         </div>
     </div>
 </div>
