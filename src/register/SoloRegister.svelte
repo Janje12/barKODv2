@@ -53,12 +53,13 @@
 </script>
 <div class="grid-rows-6 mx-10 md:mx-auto sm:w-10/12 md:w-5/12 mb-3 mx-auto">
     <div class="grid grid-cols-2 mx-5 my-3">
-        <input class="rounded-xl mr-1 p-2" required type="text" bind:value={player.firstName} placeholder="Ime">
-        <input class="rounded-xl ml-1 p-2" required type="text" bind:value={player.lastName} placeholder="Prezime">
+        <input class="rounded-xl mr-1 p-2" maxlength="100" required type="text" bind:value={player.firstName} placeholder="Ime">
+        <input class="rounded-xl ml-1 p-2" maxlength="100" required type="text" bind:value={player.lastName} placeholder="Prezime">
     </div>
     <div class="grid grid-cols-2 mx-5  my-3">
-        <input class="rounded-xl mr-1 my-1 p-2" required type="text" bind:value={player.email} placeholder="Email">
-        <input class="rounded-xl ml-1 my-1 p-2" required type="text" bind:value={player.phone} placeholder="Telefon">
+        <input class="rounded-xl mr-1 my-1 p-2" maxlength="100" required type="text" bind:value={player.email} placeholder="Email">
+        <input class="rounded-xl ml-1 my-1 p-2" maxlength="100" required type="text" bind:value={player.phone} pattern="[0-9]+"
+               oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" placeholder="Telefon">
     </div>
     <div class="my-3 mx-5">
         <label class="text-gray-500 flex justify-self-start">Datum rođenja</label>
@@ -83,7 +84,7 @@
                     <option value="Upiši sam">Upiši sam</option>
                 </select>
                 {#if tmpFacultyPlace === 'Upiši sam'}
-                    <input class="rounded-xl mt-3 w-full p-2" type="text" placeholder="Grad fakulteta" bind:value={player.facultyPlace}>
+                    <input class="rounded-xl mt-3 w-full p-2" maxlength="100" type="text" placeholder="Grad fakulteta" bind:value={player.facultyPlace}>
                 {/if}
             </div>
             <div class="mx-5 my-2">
@@ -95,7 +96,7 @@
                     <option value="Upiši sam">Upiši sam</option>
                 </select>
                 {#if tmpFaculty === 'Upiši sam'}
-                    <input class="rounded-xl mt-3 w-full p-2" placeholder="Naziv fakulteta" type="text" bind:value={player.faculty}>
+                    <input class="rounded-xl mt-3 w-full p-2" maxlength="100" placeholder="Naziv fakulteta" type="text" bind:value={player.faculty}>
                 {/if}
             </div>
             <div class="mx-5 my-2">

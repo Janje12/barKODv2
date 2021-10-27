@@ -33,7 +33,7 @@
 
 <div class="grid-rows-3 sm:w-10/12 md:w-5/12 mx-auto">
     <div class="grid-cols-2 grid my-3 mx-2">
-        <input class="rounded-xl my-1 p-2" type="text" bind:value={team.teamName} placeholder="Naziv tima">
+        <input class="rounded-xl my-1 p-2" maxlength="100" type="text" bind:value={team.teamName} placeholder="Naziv tima">
         <input class="rounded-xl my-1 p-2" maxlength="3" type="text" bind:value={team.teamAcronym}
                placeholder="Skraćen naziv tima">
     </div>
