@@ -30,34 +30,36 @@
 <div class="mb-28 pt-5 flex px-12 lg:pl-60">
     <div class="grid-rows-2 w-4/5">
         <div class="mb-8">
-            <h1 class="text-2xl md:text-3xl my-3">Prijave će biti otvorene za:</h1>
-        </div>
-        <div class="mr-0">
-            <div class="countdown-span-1 rounded-xl p-1 my-1 md:inline lg:p-4 mx-2">{d} DANA</div>
-            <div class="countdown-span-2 bg-gray-500 my-1 md:inline rounded-xl p-1 lg:p-4 mx-2">{h} SATI</div>
-            <div class="countdown-span-3 bg-gray-500 my-1 md:inline rounded-xl p-1 lg:p-4 mx-2">{m} MINUTA</div>
-            <div class="countdown-span-4 bg-gray-500 my-1 md:inline rounded-xl p-1 lg:p-4 mx-2">{s} SEKUNDI</div>
-<!--            <input bind:value={email}  id="countdown" placeholder="unesi svoj email" class="text-gray-500 px-2 mr-0 col-auto py-3 rounded-l">-->
-<!--           <button on:click={(e) => handleRegister()} class="col-auto rounded-r hover:bg-purple-700 border-gray-400 ml-0 p-3 border">Prijavi se!</button>-->
+            <div class="mb-8">
+                <h1 class="text-2xl md:text-3xl">Prijave su otvorene! 🎉 <span class="font-bold text-pink-700"> Šta čekaš?</span>
+                </h1>
+            </div>
+            <div class="mr-0">
+                <input bind:value={email} id="countdown" placeholder="unesi svoj email"
+                       class="text-gray-500 w-1/3 px-2 mr-0 col-auto py-3 rounded-l">
+                <button on:click={(e) => handleRegister()}
+                        class="col-auto rounded-r  hover:bg-purple-700 border-gray-400 ml-0 p-3 border">Prijavi se!
+                </button>
+            </div>
         </div>
     </div>
 </div>
 
-<style>
-    .countdown-span-1 {
-        background-color: #C9196D;
-    }
+    <style>
+        .countdown-span-1 {
+            background-color: #C9196D;
+        }
 
-    .countdown-span-2 {
-        background-color: #8a2357;
-    }
+        .countdown-span-2 {
+            background-color: #8a2357;
+        }
 
-    .countdown-span-3 {
-        background-color: #531c73;
-    }
+        .countdown-span-3 {
+            background-color: #531c73;
+        }
 
-    .countdown-span-4 {
-        background-color: #351C73FF
-    }
+        .countdown-span-4 {
+            background-color: #351C73FF
+        }
 
-</style>
+    </style>
