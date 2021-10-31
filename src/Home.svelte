@@ -23,7 +23,7 @@
         bottom: 20,
         icon: 'code',
         link_text: ' Više informacija',
-        link: 'faq.html'
+        link: 'faq'
     }
     let card3 = {
         id: 'Kada?',
