@@ -55,6 +55,7 @@
     }
 
     let showErrors = false;
+    let loadingRespoonse = false;
 
     function validateInput() {
         let userValid = checkObj(teamLead);
@@ -93,6 +94,7 @@
         if (showErrors) {
             return;
         }
+        loadingRespoonse = true;
         const req = {
             'team': JSON.stringify(team),
             'teamLead': JSON.stringify(teamLead),
@@ -101,7 +103,6 @@
         jquery.post("https://polar-bayou-29186.herokuapp.com/register",
             req,
             function (data, status, error) {
-                console.log(status);
                 alert("Uspesno ste se prijavili na takmicenje!");
                 history.back();
             }).fail(function (err) {
@@ -109,11 +110,14 @@
             alert("Ups :( Izgleda da je doslo do greske sa tvojom prijavom! Pokusajte kasnije ili nas kontaktirajte putem " +
                 "email-a barkod2021@gmail.com ili drustvenih mreza!")
 
-        });
-
+        }).always(() => {
+            loadingRespoonse = false;
+        })
     }
 
 </script>
+<svelte:head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></svelte:head>
 <div class="container mx-auto mt-20 w-full">
     {#if showErrors}
         <div class="text-center my-2 text-red-600">
@@ -169,9 +173,14 @@
         </div>
         {#if showQuestionnaire}
             <div class="mx-1 text-xl">
-                <button on:click={() => handleSubmit()}
+                <button disabled={loadingRespoonse} on:click={() => handleSubmit()}
                         class="w-full p-3 rounded hover:bg-green-700 bg-green-600 h-full">
-                    Prijavi se
+                    {#if loadingRespoonse}
+                        Sačekajte <i class="fa fa-spinner fa-spin text-white"></i>
+                    {:else}
+                        Prijavi se
+                    {/if}
+
                 </button>
             </div>
         {:else}
@@ -184,7 +193,6 @@
         {/if}
     </div>
 </div>
-
 <style>
     button:disabled {
         background-color: gray;

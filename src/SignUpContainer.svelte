@@ -22,7 +22,6 @@
     setInterval(fun, 1000);
 
     function handleRegister() {
-        // Simulate a mouse click:
         window.location.href = "register?email=" + email;
     }
 
@@ -36,9 +35,9 @@
             </div>
             <div class="mr-0">
                 <input bind:value={email} id="countdown" placeholder="unesi svoj email"
-                       class="text-gray-500 w-1/3 px-2 mr-0 col-auto py-3 rounded-l">
+                       class="text-gray-500 mr-0 md:w-1/3 sm:w-full px-2 mr-0 rounded-l my-1 py-3">
                 <button on:click={(e) => handleRegister()}
-                        class="col-auto rounded-r  hover:bg-purple-700 border-gray-400 ml-0 p-3 border">Prijavi se!
+                        class="rounded-r hover:bg-purple-700 my-1 border-gray-400 ml-0 p-3 border">Prijavi se!
                 </button>
             </div>
         </div>

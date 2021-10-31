@@ -1,23 +1,45 @@
 <script>
+
+    const matches = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     export let height;
     export let question;
+
     const colNum = [0, 1, 2, 3];
 </script>
-<div class="grid-cols-4 grid">
-    {#each colNum as col}
-        {#if col === 0} <a href="#{question}">
-            <div class="column text-xl rounded text-center pt-2 mx-1 {col===0 ? 'column-1' : ''}"
-                 style="height: {height}rem;">
-                {question}
-            </div>
-        </a>
-        {:else}
-            <div class="column lg:visible text-xl rounded text-center pt-1 mx-1"
-                 style="height: {height}rem;">
-            </div>
-        {/if}
-    {/each}
-</div>
+{#if matches}
+    <div class="grid-cols-4 grid">
+        {#each colNum as col}
+            {#if col === 0} <a href="#{question}">
+                <div class="column text-xl rounded text-center pt-2 mx-1 {col===0 ? 'column-1' : ''}"
+                     style="height: 30vh;">
+                    {question}
+                </div>
+            </a>
+            {:else}
+                <div class="column lg:visible text-xl rounded text-center pt-1 mx-1"
+                     style="height: 30vh;">
+                </div>
+            {/if}
+        {/each}
+    </div>
+{:else}
+    <div class="grid-cols-4 grid">
+        {#each colNum as col}
+            {#if col === 0} <a href="#{question}">
+                <div class="column text-xl rounded text-center pt-2 mx-1 {col===0 ? 'column-1' : ''}"
+                     style="height: {height}em;">
+                    {question}
+                </div>
+            </a>
+            {:else}
+                <div class="column lg:visible text-xl rounded text-center pt-1 mx-1"
+                     style="height: {height}em;">
+                </div>
+            {/if}
+        {/each}
+    </div>
+{/if}
+
 
 <style>
     .text-xl:hover {

@@ -17,13 +17,9 @@ A
 src/Footer.svelte,1/9/199d7127b7a467e0043499316f92d1a74f59fd37
 G
 public/build/bundle.css,5/a/5a068baecb3f7b3275fa725dbd886f54622e7073
-B
-src/CardRow.svelte,b/b/bb4ce43ada98e2cddd1a16c3df9640693d29fbb0
 F
 public/barkod-logo.svg,3/3/3363bef5f6b1a4738926e118df32ef8e28eb8687
 C
 src/barkod-logo.svg,b/7/b782af55216359bc69571d30c79fb703e55c5723
-?
-src/Card.svelte,c/0/c0eda89df63b402b40ece57fce4490ebd2a148f5
 ?
 src/Logo.svelte,3/d/3d49bb60ab8d5674939063ba3324056692b55c70

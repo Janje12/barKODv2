@@ -58,6 +58,7 @@
 
 <body>
 <main>
+
     <Header/>
     <SignUpContainer/>
     <div class="w-10/12 mx-auto h-full grid grid-cols-4">
