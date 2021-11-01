@@ -102,7 +102,7 @@
         </div>
     </div>
     <div class="grid-rows-2 my-2 md:mx-auto sm:w-10/12 md:w-4/12">
-        <label class="text-gray-400">Šta će izraz 1 == '1' && '42 === '42' vratiti u JavaScript-i?</label>
+        <label class="text-gray-400">Šta će izraz 1 == '1' && '42' === '42' vratiti u JavaScript-i?</label>
         <div class="grid-rows-2">
             {#each equalsOptions as option}
                 <label class="justify-self-start">
