@@ -37,7 +37,7 @@
     }
 
     function goBack() {
-        history.back();
+        window.location.href = 'index';
     }
 </script>
 <svelte:head>
