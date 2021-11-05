@@ -74,21 +74,6 @@
             </select>
         </div>
     </div>
-    <div class="grid-rows-2 my-2">
-        <div>
-            <label class="text-gray-400">Da li si čuo sa kompaniju <span class="purple">Datum?</span></label>
-            <input type="checkbox" bind:checked={questionnaire.didYouHearAboutDatum}>
-        </div>
-        <div class="my-2">
-            <select disabled={!questionnaire.didYouHearAboutDatum}
-                    on:change={(e) => updateDatum(e.target.value)}>
-                <option hidden selected value="Kako si čuo za Datum?">Kako si čuo za Datum?</option>
-                {#each marketOptions as m}
-                    <option value="{m}">{m}</option>
-                {/each}
-            </select>
-        </div>
-    </div>
     <div class="grid-rows-2 my-2 md:mx-auto sm:w-10/12 md:w-4/12">
         <label class="text-gray-400">Koju klasu svaka klasa nasleđuje (direktno ili indirektno) u Javi?</label>
         <div class="grid-rows-3">

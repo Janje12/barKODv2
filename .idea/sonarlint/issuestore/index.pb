@@ -53,7 +53,3 @@ J
 src/App.svelte,b/0/b071a5cc9dda950710e20842b13e86e982262628
 ?
 src/Home.svelte,9/1/9127e71d869501813d31238737109659a18150e9
-L
-src/register/Register.svelte,a/a/aa09d7613950532fc2c450ca898fcaee2a8e72b1
-Q
-!src/register/Questionnaire.svelte,4/a/4ae3e7ce157758cd796fb3eb128d4746199b4f8f

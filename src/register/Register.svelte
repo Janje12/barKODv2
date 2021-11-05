@@ -78,9 +78,6 @@
                 if (key === 'howDidYouHearAboutSynechron' && !obj['didYouHearAboutSynechron']) {
                     continue;
                 }
-                if (key === 'howDidYouHearAboutDatum' && !obj['didYouHearAboutDatum']) {
-                    continue;
-                }
                 if (obj[key] === '') {
                     return false;
                 }
