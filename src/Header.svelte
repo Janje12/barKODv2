@@ -9,10 +9,6 @@
                 class="w-3/5 sponsor bg-white rounded-xl p-3"
                 src="synechron-vector-logo.png"
                 alt="synechron"/></a>
-        <a class="flex justify-center" href="https://www.thecampster.com/rs/" target="_blank"><img
-                class="w-1/3 mt-3 sponsor bg-gray-300 rounded-xl p-3"
-                src="kampster.png"
-                alt="kampster"/></a>
     </div>
     <div class="">
         <h3 class="flex md:w-1/3 w-2/3 mx-auto text-white justify-center"><Logo/></h3>
@@ -22,11 +18,11 @@
         <SocialContainer/>
     </div>
     <div class="p-8 invisible md:visible">
-        <p class="text-center mb-2">Powered by:</p>
-        <a class="flex justify-center" href="https://www.dcgteam.com/" target="_blank"><img
-                class="w-3/5 sponsor bg-white rounded-xl p-3"
-                src="datum_solutions_logo.png"
-                alt="Datum solutions"/></a>
+        <p class="text-center mb-2">Partners:</p>
+        <a class="flex justify-center" href="https://www.thecampster.com/rs/" target="_blank"><img
+                class="w-1/3 mt-3 sponsor bg-gray-300 rounded-xl p-3"
+                src="kampster.png"
+                alt="kampster"/></a>
         <a class="flex justify-center" href="https://www.knjaz.rs/" target="_blank"><img
                 class="w-1/3 mt-3 sponsor bg-white rounded-xl p-3"
                 src="knjaz-logo.png"
@@ -35,16 +31,12 @@
 </div>
 <div class="md:hidden grid-rows-3 visible">
     <p class="text-center mb-2 text-gray-500">Powered by:</p>
-    <div class="grid-cols-2 grid">
+    <div class="w-2/3  mx-auto grid">
         <a class="mx-1" href="https://www.synechron.com/" target="_blank"><img
                 class="sponsor bg-white rounded-xl p-2"
                 src="synechron-vector-logo.png"
                 alt="synechron"/>
         </a>
-        <a class="mx-1" href="https://www.dcgteam.com/" target="_blank"><img
-                class="sponsor bg-white rounded-xl p-2"
-                src="datum_solutions_logo.png"
-                alt="Datum solutions"/></a>
     </div>
     <div class="grid-cols-2 grid">
         <a href="https://www.thecampster.com/rs/" target="_blank"><img
