@@ -23,10 +23,10 @@
                 class="w-1/3 mt-3 sponsor bg-gray-300 rounded-xl p-3"
                 src="kampster.png"
                 alt="kampster"/></a>
-        <a class="flex justify-center" href="https://www.knjaz.rs/" target="_blank"><img
+        <a class="flex justify-center" href="https://www.guarana.rs/" target="_blank"><img
                 class="w-1/3 mt-3 sponsor bg-white rounded-xl p-3"
-                src="knjaz-logo.png"
-                alt="knjaz milos"/></a>
+                src="https://guarana.rs/images/gua-logo.svg"
+                alt="guarana"/></a>
     </div>
 </div>
 <div class="md:hidden grid-rows-3 visible">
@@ -43,9 +43,9 @@
                 class="mt-3 w-2/3 ml-auto mr-1 sponsor bg-gray-200 rounded-xl p-3"
                 src="kampster.png"
                 alt="kampster"/></a>
-        <a href="https://www.knjaz.rs/" target="_blank"><img
+        <a href="https://www.guarana.rs/en/" target="_blank"><img
                 class="mt-3 w-2/3 mr-auto ml-1 sponsor bg-white rounded-xl p-3"
-                src="knjaz-logo.png"
+                src="https://guarana.rs/images/gua-logo.svg"
                 alt="knjaz milos"/></a>
     </div>
 </div>
