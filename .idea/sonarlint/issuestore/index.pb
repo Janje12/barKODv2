@@ -45,11 +45,3 @@ P
  src/register/TeamRegister.svelte,9/8/9846ed22a0c80b5efb52d300d011e28f4b2efc9b
 B
 src/CardRow.svelte,b/b/bb4ce43ada98e2cddd1a16c3df9640693d29fbb0
-J
-src/SignUpContainer.svelte,4/3/434b2b29898a1cf7f624b23fdc016833e5fba516
-?
-src/Card.svelte,c/0/c0eda89df63b402b40ece57fce4490ebd2a148f5
->
-src/App.svelte,b/0/b071a5cc9dda950710e20842b13e86e982262628
-?
-src/Home.svelte,9/1/9127e71d869501813d31238737109659a18150e9

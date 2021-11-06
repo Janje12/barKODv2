@@ -39,7 +39,12 @@
                 <button on:click={(e) => handleRegister()}
                         class="rounded-r hover:bg-purple-700 my-1 border-gray-400 ml-0 p-3 border">Prijavi se!
                 </button>
+                <div class="text-gray-500 mt-2">
+                    Zanimate šta će biti i kako da se spremiš? Klikni
+                    <a class="bg-pink-700 text-white hover:bg-pink-800 hover:text-white p-1 rounded" href="#Zadatak?">OVDE</a>
+                </div>
             </div>
+
         </div>
     </div>
 </div>

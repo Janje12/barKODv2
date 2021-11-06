@@ -50,6 +50,30 @@
         link_text: ' Fakultet',
         link: 'https://goo.gl/maps/Nq38kNEDERpjuVQU9'
     }
+    let card5 = {
+        id: 'Tema?',
+        title: 'Tema?',
+        subtitle: 'Web Dev',
+        text: 'Takmičenje će se baviti zadatkom koji će imitirati neki usecase ' +
+            'sa kojim bi mogli da se susretnete na vašem budućem poslu ili praksi.',
+        bottom: 20,
+        icon: 'question-circle',
+        link_text: ' još pitanja?',
+        link: 'faq'
+    }
+    let card6 = {
+        id: 'Zadatak?',
+        title: 'Zadatak?',
+        subtitle: 'Full stack Web Aplikacija',
+        text: 'Tehnologije koje preporučujemo jeste ' +
+            'neki <span class="text-yellow-300">JavaScript</span> framework-a na Frontu i <span class="text-green-500">Spring Boot</span> na Backu. Baza podataka neće biti potrebna.' +
+            ' Naravno ako ste iskusniji ili efikasiniji sa drugim alatima, slobodni ste da ih birate, ali nam morate najaviti da bi mi mogli da obezbedimo mentora. Za više informacija pogledajte naš ' +
+            '<a class="font-bold" href="https://www.instagram.com/barkod.hakaton/">Instagram</a> nalog!',
+        bottom: 20,
+        icon: 'question-circle',
+        link_text: ' još pitanja?',
+        link: 'faq'
+    }
 
 </script>
 <svelte:head>
@@ -77,6 +101,14 @@
         <div>
             <CardRow question="Gde?" height="100"/>
             <Card card="{card4}"/>
+        </div>
+    </div>
+    <div class="grid md:grid-cols-2">
+        <div class="md:w-2/3 mx-10 mb-4 md:mx-auto">
+            <Card card="{card5}"/>
+        </div>
+        <div class="md:w-2/3 mx-10 md:mx-auto">
+            <Card card="{card6}"/>
         </div>
     </div>
 </main>

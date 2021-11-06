@@ -25,7 +25,7 @@
                 alt="kampster"/></a>
         <a class="flex justify-center" href="https://www.guarana.rs/" target="_blank"><img
                 class="w-1/3 mt-3 sponsor bg-white rounded-xl p-3"
-                src="https://guarana.rs/images/gua-logo.svg"
+                src="gua-logo.png"
                 alt="guarana"/></a>
     </div>
 </div>
@@ -43,10 +43,10 @@
                 class="mt-3 w-2/3 ml-auto mr-1 sponsor bg-gray-200 rounded-xl p-3"
                 src="kampster.png"
                 alt="kampster"/></a>
-        <a href="https://www.guarana.rs/en/" target="_blank"><img
+        <a href="https://www.guarana.rs/" target="_blank"><img
                 class="mt-3 w-2/3 mr-auto ml-1 sponsor bg-white rounded-xl p-3"
-                src="https://guarana.rs/images/gua-logo.svg"
-                alt="knjaz milos"/></a>
+                src="gua-logo.png"
+                alt="guarana"/></a>
     </div>
 </div>
 
