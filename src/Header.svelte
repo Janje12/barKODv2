@@ -51,22 +51,22 @@
         </a>
     </div>
     <div class="grid-cols-2 grid">
-        <a href="https://www.joberty.rs/" target="_blank"><img
-                class="mt-3 w-2/3 ml-auto mr-1 sponsor bg-white rounded-xl p-3"
-                src="joberty_logo_coral.png"
-                alt="joberty"/></a>
-        <a href="https://www.guarana.rs/" target="_blank"><img
-                class="mt-3 w-2/3 mr-auto ml-1 sponsor bg-white rounded-xl p-3"
-                src="gua-logo.png"
-                alt="guarana"/></a>
-        <a href="https://www.thecampster.com/rs/" target="_blank"><img
-                class="mt-3 w-2/3 ml-auto mr-1 sponsor bg-gray-200 rounded-xl p-3"
-                src="kampster.png"
-                alt="kampster"/></a>
-        <a href="https://www.zabac.rs/" target="_blank"><img
-                class="mt-3 w-2/3 mr-auto ml-1 sponsor bg-white rounded-xl p-3"
-                src="zabac.png"
-                alt="zabac"/></a>
+        <a href="https://www.joberty.rs/" target="_blank">
+            <img class="mt-3 w-2/3 ml-auto mr-1 sponsor bg-white rounded-xl p-3"
+                 src="joberty_logo_coral.png"
+                 alt="joberty"/></a>
+        <a href="https://www.guarana.rs/" target="_blank">
+            <img class="mt-3 w-2/3 mr-auto ml-1 sponsor bg-white rounded-xl p-3"
+                 src="gua-logo.png"
+                 alt="guarana"/></a>
+        <a href="https://www.thecampster.com/rs/" target="_blank">
+            <img class="mt-3 w-2/3 ml-auto mr-1 sponsor bg-gray-200 rounded-xl p-3"
+                 src="kampster.png"
+                 alt="kampster"/></a>
+        <a href="https://www.zabac.rs/" target="_blank">
+            <img class="mt-3 w-2/3 mr-auto ml-1 sponsor bg-white rounded-xl p-3"
+                 src="zabac.png"
+                 alt="zabac"/></a>
     </div>
 </div>
 

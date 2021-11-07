@@ -4,6 +4,8 @@
     import Faq from './Faq.svelte';
     import Register from './register/Register.svelte';
 
+
+
     let current = Home;
 
     router('/', () => (current = Home));
@@ -17,6 +19,7 @@
     <link rel="icon" type="image/png" href="favicon.ico">
     <title>barKod</title>
 </svelte:head>
+
 
 
 <style global>

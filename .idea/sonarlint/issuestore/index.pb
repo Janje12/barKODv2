@@ -23,8 +23,6 @@ C
 src/barkod-logo.svg,b/7/b782af55216359bc69571d30c79fb703e55c5723
 ?
 src/Logo.svelte,3/d/3d49bb60ab8d5674939063ba3324056692b55c70
-A
-public/index.html,f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b
 ;
 src/main.js,4/1/41d348bfb8135a570c1d2675c884f60724201c5c
 @
