@@ -11,22 +11,34 @@
                 alt="synechron"/></a>
     </div>
     <div class="">
-        <h3 class="flex md:w-1/3 w-2/3 mx-auto text-white justify-center"><Logo/></h3>
+        <h3 class="flex md:w-1/3 w-2/3 mx-auto text-white justify-center">
+            <Logo/>
+        </h3>
         <h1 id="title" class="flex font-bold md:text-7xl text-5xl justify-center">
             HAKATON
         </h1>
         <SocialContainer/>
     </div>
-    <div class="p-8 invisible md:visible">
-        <p class="text-center mb-2">Partners:</p>
-        <a class="flex justify-center" href="https://www.thecampster.com/rs/" target="_blank"><img
-                class="w-1/3 mt-3 sponsor bg-gray-300 rounded-xl p-3"
-                src="kampster.png"
-                alt="kampster"/></a>
-        <a class="flex justify-center" href="https://www.guarana.rs/" target="_blank"><img
-                class="w-1/3 mt-3 sponsor bg-white rounded-xl p-3"
-                src="gua-logo.png"
-                alt="guarana"/></a>
+    <div class="invisible p-8 md:visible">
+        <div><p class="text-center">Partners:</p></div>
+        <div class="grid grid-cols-2 ">
+            <a class="flex justify-center" href="https://www.thecampster.com/rs/" target="_blank"><img
+                    class="w-4/5 h-3/4 mt-3 sponsor bg-gray-300 rounded-xl p-3"
+                    src="kampster.png"
+                    alt="kampster"/></a>
+            <a class="flex justify-center" href="https://www.guarana.rs/" target="_blank"><img
+                    class="w-3/5 mt-3 sponsor bg-white rounded-xl p-3"
+                    src="gua-logo.png"
+                    alt="guarana"/></a>
+            <a class="mx-auto" href="https://www.joberty.rs/" target="_blank"><img
+                    class="w-3/5 mt-3 mx-auto sponsor bg-white rounded-xl p-3"
+                    src="joberty_logo_coral.png"
+                    alt="joberty"/></a>
+            <a class="mx-auto" href="https://www.zabac.rs/" target="_blank"><img
+                    class="w-3/5 mt-3 mx-auto sponsor bg-white rounded-xl p-3"
+                    src="zabac.png"
+                    alt="zabac"/></a>
+        </div>
     </div>
 </div>
 <div class="md:hidden grid-rows-3 visible">
@@ -39,14 +51,22 @@
         </a>
     </div>
     <div class="grid-cols-2 grid">
-        <a href="https://www.thecampster.com/rs/" target="_blank"><img
-                class="mt-3 w-2/3 ml-auto mr-1 sponsor bg-gray-200 rounded-xl p-3"
-                src="kampster.png"
-                alt="kampster"/></a>
+        <a href="https://www.joberty.rs/" target="_blank"><img
+                class="mt-3 w-2/3 ml-auto mr-1 sponsor bg-white rounded-xl p-3"
+                src="joberty_logo_coral.png"
+                alt="joberty"/></a>
         <a href="https://www.guarana.rs/" target="_blank"><img
                 class="mt-3 w-2/3 mr-auto ml-1 sponsor bg-white rounded-xl p-3"
                 src="gua-logo.png"
                 alt="guarana"/></a>
+        <a href="https://www.thecampster.com/rs/" target="_blank"><img
+                class="mt-3 w-2/3 ml-auto mr-1 sponsor bg-gray-200 rounded-xl p-3"
+                src="kampster.png"
+                alt="kampster"/></a>
+        <a href="https://www.zabac.rs/" target="_blank"><img
+                class="mt-3 w-2/3 mr-auto ml-1 sponsor bg-white rounded-xl p-3"
+                src="zabac.png"
+                alt="zabac"/></a>
     </div>
 </div>
 
