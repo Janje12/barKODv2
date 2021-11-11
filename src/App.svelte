@@ -9,7 +9,6 @@
     let current = Home;
 
     router('/', () => (current = Home));
-    router('/register', () => (current = Register));
     router('/faq', () => (current = Faq));
 
     router.start();

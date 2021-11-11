@@ -5,7 +5,7 @@
     let m = '00';
     let s = '00';
     const fun = updateTimer => {
-        const future = Date.parse("oct 27, 2021 16:15:00");
+        const future = Date.parse("nov 27, 2021 09:00:00");
         const now = new Date();
         const diff = future - now;
 
@@ -30,19 +30,14 @@
     <div class="grid-rows-2 w-4/5">
         <div class="mb-8">
             <div class="mb-8">
-                <h1 class="text-2xl md:text-3xl">Prijave su otvorene! 🎉 <span class="font-bold text-pink-700"> Šta čekaš?</span>
+                <h1 class="text-2xl md:text-3xl">Prijave su zatvorene! <span class="font-bold text-pink-700"> Do hakatona: </span>
                 </h1>
             </div>
             <div class="mr-0">
-                <input bind:value={email} id="countdown" placeholder="unesi svoj email"
-                       class="text-gray-500 mr-0 md:w-1/3 sm:w-full px-2 mr-0 rounded-l my-1 py-3">
-                <button on:click={(e) => handleRegister()}
-                        class="rounded-r hover:bg-purple-700 my-1 border-gray-400 ml-0 p-3 border">Prijavi se!
-                </button>
-                <div class="text-gray-500 mt-2">
-                    Zanimate šta će biti i kako da se spremiš? Klikni
-                    <a class="bg-pink-700 text-white hover:bg-pink-800 hover:text-white p-1 rounded" href="#Zadatak?">OVDE</a>
-                </div>
+                <span class="countdown-span-1 block md:inline my-1 p-1 md:p-3 md:text-xl rounded">{d} DANA</span>
+                <span class="countdown-span-2 block md:inline my-1 p-1 md:p-3 md:text-xl  rounded">{h} SATI</span>
+                <span class="countdown-span-3 block md:inline my-1 p-1 md:p-3 md:text-xl  rounded">{m} MINUTA</span>
+                <span class="countdown-span-4 block md:inline p-1 md:p-3 md:text-xl  rounded">{s} SEKNUDI</span>
             </div>
 
         </div>
