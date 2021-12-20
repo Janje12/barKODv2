@@ -4,6 +4,7 @@
     import CardRow from "./CardRow.svelte";
     import Card from "./Card.svelte";
     import Footer from "./Footer.svelte";
+    import CardImage from "./CardImage.svelte";
 
     let card1 = {
         id: 'Ko?',
@@ -84,32 +85,11 @@
 <main>
 
     <Header/>
-    <SignUpContainer/>
-    <div class="w-10/12 mx-auto h-full grid grid-cols-4">
-        <div>
-            <CardRow question="Ko?" height="25"/>
-            <Card card="{card1}"/>
-        </div>
-        <div>
-            <CardRow question="Šta?" height="50"/>
-            <Card card="{card2}"/>
-        </div>
-        <div>
-            <CardRow question="Kada?" height="75"/>
-            <Card card="{card3}"/>
-        </div>
-        <div>
-            <CardRow question="Gde?" height="100"/>
-            <Card card="{card4}"/>
-        </div>
-    </div>
-    <div class="grid md:grid-cols-2">
-        <div class="md:w-2/3 mx-10 mb-4 md:mx-auto">
-            <Card card="{card5}"/>
-        </div>
-        <div class="md:w-2/3 mx-10 md:mx-auto">
-            <Card card="{card6}"/>
-        </div>
+    <div class="w-10/12 mx-auto h-full grid grid-cols-3">
+        <img src="/images/Agenda.jpg">
+        {#each Array(1000) as _, i}
+            <CardImage url={i}></CardImage>
+        {/each}
     </div>
 </main>
 <Footer/>

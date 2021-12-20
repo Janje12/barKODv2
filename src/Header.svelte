@@ -18,6 +18,8 @@
             HAKATON
         </h1>
         <SocialContainer/>
+        <p class="text-xl text-center my-4">Hvala svima koji su učestvovali i pomogli u realizaciji celog hakatona!
+            Pratite nas na društvenim mrežama za buduće događaje. Pozdrav od Budi Biće Bolje ekipe! =)</p>
     </div>
     <div class="invisible p-8 md:visible">
         <div><p class="text-center">Partners:</p></div>

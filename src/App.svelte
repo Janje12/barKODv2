@@ -2,9 +2,6 @@
     import router from 'page';
     import Home from './Home.svelte';
     import Faq from './Faq.svelte';
-    import Register from './register/Register.svelte';
-
-
 
     let current = Home;
 
