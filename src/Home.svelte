@@ -86,9 +86,8 @@
 
     <Header/>
     <div class="w-10/12 mx-auto h-full grid grid-cols-3">
-        <img src="/images/Agenda.jpg">
-        {#each Array(1000) as _, i}
-            <CardImage url={i}></CardImage>
+        {#each Array(78) as _, i}
+            <CardImage url={i + 1}></CardImage>
         {/each}
     </div>
 </main>

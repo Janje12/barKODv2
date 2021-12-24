@@ -53,3 +53,9 @@ A
 public/index.html,f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b
 >
 src/Faq.svelte,3/5/355b454c882c1b803a1c5981d4790ac47d8527f4
+>
+src/App.svelte,b/0/b071a5cc9dda950710e20842b13e86e982262628
+<
+package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
+A
+src/Header.svelte,9/3/93ec92fb104786a42d6f3bc31cd34847abf2d6df
