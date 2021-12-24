@@ -9,6 +9,8 @@
         object-fit: cover;
         width: 450px;
         height: 480px;
+        box-shadow: #8a2357 5px 4px 5px;
+        border-radius: 5px;
     }
 
     .hide {
