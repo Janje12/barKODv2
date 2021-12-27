@@ -2,7 +2,7 @@
     export let url = 0;
     let show = true;
 </script>
-<div style="width: 450px; height: 480px" class="m-2 bg-gray-900">
+<div style="width: 450px; height: 480px" class="m-2 mx-auto bg-gray-900">
     <img loading="lazy" on:error={() => show = false} class="{show ? 'show' : 'hide'}"
          src={'/images/' + url + '.jpg'}>
 </div>
