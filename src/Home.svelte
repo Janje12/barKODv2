@@ -85,7 +85,7 @@
 <main>
 
     <Header/>
-    <div class="w-10/12 mx-auto h-full grid grid-cols-3">
+    <div class="w-10/12 mx-auto h-full grid md:grid-cols-2 lg:grid-cols-3">
         {#each Array(78) as _, i}
             <CardImage url={i + 1}></CardImage>
         {/each}
