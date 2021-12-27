@@ -10,7 +10,7 @@
                 src="synechron-vector-logo.png"
                 alt="synechron"/></a>
     </div>
-    <div class="">
+    <div>
         <h3 class="flex md:w-1/3 w-2/3 mx-auto text-white justify-center">
             <Logo/>
         </h3>
@@ -18,9 +18,9 @@
             HAKATON
         </h1>
         <SocialContainer/>
-        <p class="text-xl text-center my-4">Hvala svima koji su učestvovali i pomogli u realizaciji celog hakatona!
-            Pratite nas na društvenim mrežama za buduće događaje. Pozdrav od Budi Biće Bolje ekipe! =)</p>
+
     </div>
+
     <div class="invisible p-8 md:visible">
         <div><p class="text-center">Partners:</p></div>
         <div class="grid grid-cols-2 ">
@@ -71,6 +71,9 @@
                  alt="zabac"/></a>
     </div>
 </div>
+
+<p class="text-xl text-center my-4 lg:mx-24 mx-2">Hvala svima koji su učestvovali i pomogli u realizaciji celog hakatona!
+    Pratite nas na društvenim mrežama za buduće događaje. Pozdrav od Budi Biće Bolje ekipe! =)</p>
 
 <style>
     h1 {

@@ -57,5 +57,3 @@ A
 src/App.svelte,b/0/b071a5cc9dda950710e20842b13e86e982262628
 <
 package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
-A
-src/Header.svelte,9/3/93ec92fb104786a42d6f3bc31cd34847abf2d6df
